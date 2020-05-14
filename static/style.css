@@ -90,7 +90,7 @@ p {
 }
 strong,
 b {
-  font-weight: 500;
+  font-weight: 750;
 }
 ul {
   margin: 0;
@@ -157,7 +157,7 @@ img {
 }
 .logo a {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 750;
 }
 .menu {
   display: flex;
@@ -350,7 +350,7 @@ img {
 }
 .post-content dt {
   width: 25%;
-  font-weight: 700;
+  font-weight: 750;
 }
 .post-content dd {
   width: 75%;
@@ -508,5 +508,5 @@ img {
   justify-content: center;
   height: 80%;
   font-size: 160px;
-  font-weight: 700;
+  font-weight: 750;
 }
