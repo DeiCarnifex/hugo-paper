@@ -7,10 +7,8 @@
     <!-- Title -->
     <title>
       {{- if not .IsHome }}
-      {{- if eq .Kind "page" }}{{ .Title }}
-      {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
-      {{- else }}Posts
-      {{- end }} - {{ end }}
+      {{- .Title }}
+        - {{ end }}
       {{- .Site.Title -}}
     </title>
     <!-- Meta -->
