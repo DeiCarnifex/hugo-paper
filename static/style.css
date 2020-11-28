@@ -135,6 +135,7 @@ textarea:-webkit-autofill {
 img {
   display: block;
   max-width: 100%;
+  text-align: center;
 }
 /* Header
 -------------------------------------------------- */
