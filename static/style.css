@@ -135,7 +135,6 @@ textarea:-webkit-autofill {
 img {
   display: block;
   max-width: 100%;
-  text-align: center;
 }
 /* Header
 -------------------------------------------------- */
@@ -323,6 +322,11 @@ img {
   margin-right: 0;
   border-radius: 0;
   box-shadow: 0 -1px 0 var(--primary) inset;
+}
+.post-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .post-content del {
   text-decoration: none;
